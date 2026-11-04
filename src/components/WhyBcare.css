@@ -1,0 +1,89 @@
+.why-bcare {
+  width: 92%;
+  max-width: 72rem;
+  margin: 1.5rem auto 0;
+}
+
+.why-bcare-title {
+  text-align: center;
+  color: #146394;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+}
+
+.why-bcare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.why-bcare-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 0.75rem;
+  min-height: 8.5rem;
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.why-bcare-icon {
+  width: 2.25rem;
+  height: 2.25rem;
+  object-fit: contain;
+}
+
+.why-bcare-card h3 {
+  color: #146394;
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 0.75rem 0 0;
+}
+
+.why-bcare-card p {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .why-bcare {
+    margin-top: 2.5rem;
+  }
+
+  .why-bcare-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .why-bcare-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .why-bcare-card {
+    min-height: 14rem;
+    padding: 2rem 1rem 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .why-bcare-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .why-bcare-card h3 {
+    font-size: 1.125rem;
+  }
+
+  .why-bcare-card p {
+    display: block;
+    color: #146394;
+    font-size: 0.875rem;
+    text-align: center;
+    margin-top: 0.75rem;
+    line-height: 1.5;
+  }
+}
